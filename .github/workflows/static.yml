@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Gabriel | Archive</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'serif';
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .wrapper {
+            width: 100%;
+            max-width: 400px; /* Идеально для экрана телефона */
+            text-align: center;
+            border-top: 1px solid #4d0000;
+            border-bottom: 1px solid #4d0000;
+            padding: 40px 10px;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            letter-spacing: 0.2rem;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+            font-weight: 300;
+        }
+
+        .geo {
+            font-size: 0.7rem;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 40px;
+        }
+
+        .work {
+            margin-bottom: 50px;
+        }
+
+        .work h2 {
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+
+        .work p {
+            font-style: italic;
+            color: #8B0000; /* Темно-красный */
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+
+        .update-tag {
+            display: inline-block;
+            font-size: 0.65rem;
+            border: 1px solid #333;
+            padding: 4px 10px;
+            color: #999;
+        }
+
+        .contacts {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .btn {
+            color: #fff;
+            text-decoration: none;
+            font-size: 0.9rem;
+            border: 1px solid #fff;
+            padding: 12px;
+            transition: all 0.3s ease;
+        }
+
+        .btn:active { /* Эффект при нажатии на телефоне */
+            background: #fff;
+            color: #000;
+        }
+
+        .email {
+            font-size: 0.8rem;
+            color: #555;
+            margin-top: 20px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        <header>
+            <h1>Gabriel</h1>
+            <div class="geo">Moldova</div>
+        </header>
+
+        <section class="work">
+            <h2>Архив стертых криков</h2>
+            <p>Переплет из несбывшихся дней</p>
+            <div class="update-tag">Глава 2 — опубликована вчера</div>
+        </section>
+
+        <nav class="contacts">
+            <a href="https://t.me/OiCvoi" class="btn">TELEGRAM</a>
+            <a href="mailto:gabihjkp@gmail.com" class="email">gabihjkp@gmail.com</a>
+        </nav>
+    </div>
+
+</body>
+</html>
